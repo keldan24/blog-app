@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from django.db.models import F, Q
 from . import data
-import operator
 from blog.models import Posts
 from django.http import HttpResponse
 
